@@ -1,0 +1,416 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1547pt" height="930pt" viewBox="0.00 0.00 1546.72 930.40">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 926.4)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-926.4 1542.72,-926.4 1542.72,4 -4,4"/>
+<!-- title -->
+<g id="node1" class="node">
+<title>title</title>
+<polygon fill="white" stroke="none" points="1140.39,-922.4 832.69,-922.4 832.69,-886.4 1140.39,-886.4 1140.39,-922.4"/>
+<text text-anchor="middle" x="986.54" y="-899.6" font-family="Arial" font-size="16.00">Threshold Spatial Autoregressive Models</text>
+</g>
+<!-- sar -->
+<g id="node2" class="node">
+<title>sar</title>
+<polygon fill="lightcyan" stroke="black" points="834.09,-828.4 586.99,-828.4 586.99,-770 834.09,-770 834.09,-828.4"/>
+<text text-anchor="middle" x="710.54" y="-811.8" font-family="Arial" font-size="14.00">Spatial Autoregressive Models (SAR)</text>
+<text text-anchor="middle" x="710.54" y="-795" font-family="Arial" font-size="14.00">• Captures spatial dependencies</text>
+<text text-anchor="middle" x="710.54" y="-778.2" font-family="Arial" font-size="14.00">• Fixed spatial coefficient ρ</text>
+</g>
+<!-- title&#45;&gt;sar -->
+<g id="edge1" class="edge">
+<title>title-&gt;sar</title>
+<path fill="none" stroke="black" d="M941.27,-886.47C901.97,-871.78 843.98,-850.1 795.98,-832.15"/>
+<polygon fill="black" stroke="black" points="797.03,-829.55 788.56,-829.37 795.07,-834.8 797.03,-829.55"/>
+</g>
+<!-- threshold -->
+<g id="node3" class="node">
+<title>threshold</title>
+<polygon fill="lightcyan" stroke="black" points="1109.71,-828.4 877.37,-828.4 877.37,-770 1109.71,-770 1109.71,-828.4"/>
+<text text-anchor="middle" x="993.54" y="-811.8" font-family="Arial" font-size="14.00">Threshold Regression Models</text>
+<text text-anchor="middle" x="993.54" y="-795" font-family="Arial" font-size="14.00">• Identifies structural break points</text>
+<text text-anchor="middle" x="993.54" y="-778.2" font-family="Arial" font-size="14.00">• Non-linear relationship modeling</text>
+</g>
+<!-- title&#45;&gt;threshold -->
+<g id="edge2" class="edge">
+<title>title-&gt;threshold</title>
+<path fill="none" stroke="black" d="M987.66,-886.82C988.56,-873.65 989.84,-854.71 990.98,-837.9"/>
+<polygon fill="black" stroke="black" points="993.75,-838.51 991.49,-830.34 988.16,-838.13 993.75,-838.51"/>
+</g>
+<!-- invisible_node -->
+<!-- title&#45;&gt;invisible_node -->
+<!-- tsar_main -->
+<g id="node4" class="node">
+<title>tsar_main</title>
+<polygon fill="lightgreen" stroke="black" points="960.06,-712 737.01,-712 737.01,-653.6 960.06,-653.6 960.06,-712"/>
+<text text-anchor="middle" x="848.54" y="-695.4" font-family="Arial" font-size="14.00">TSAR Models</text>
+<text text-anchor="middle" x="848.54" y="-678.6" font-family="Arial" font-size="14.00">Integration of spatial dependence</text>
+<text text-anchor="middle" x="848.54" y="-661.8" font-family="Arial" font-size="14.00">and threshold effects</text>
+</g>
+<!-- sar&#45;&gt;tsar_main -->
+<g id="edge3" class="edge">
+<title>sar-&gt;tsar_main</title>
+<path fill="none" stroke="black" d="M745,-769.63C763.78,-754.07 787.14,-734.7 806.92,-718.3"/>
+<polygon fill="black" stroke="black" points="808.49,-720.63 812.87,-713.37 804.92,-716.32 808.49,-720.63"/>
+</g>
+<!-- threshold&#45;&gt;tsar_main -->
+<g id="edge4" class="edge">
+<title>threshold-&gt;tsar_main</title>
+<path fill="none" stroke="black" d="M957.32,-769.63C937.51,-754 912.83,-734.53 891.99,-718.08"/>
+<polygon fill="black" stroke="black" points="894,-716.1 885.98,-713.34 890.53,-720.5 894,-716.1"/>
+</g>
+<!-- type1 -->
+<g id="node5" class="node">
+<title>type1</title>
+<polygon fill="azure" stroke="black" points="729.77,-595.6 433.31,-595.6 433.31,-520.4 729.77,-520.4 729.77,-595.6"/>
+<text text-anchor="middle" x="581.54" y="-579" font-family="Arial" font-size="14.00">Type I: Regression Coefficient Threshold</text>
+<text text-anchor="middle" x="581.54" y="-562.2" font-family="Arial" font-size="14.00">• Constant spatial spillover effect</text>
+<text text-anchor="middle" x="581.54" y="-545.4" font-family="Arial" font-size="14.00">• Varying regression coefficients</text>
+<text text-anchor="middle" x="581.54" y="-528.6" font-family="Arial" font-size="14.00">• y = ρWy + X₁β₁I(q≤γ) + X₂β₂I(q&gt;γ) + ε</text>
+</g>
+<!-- tsar_main&#45;&gt;type1 -->
+<g id="edge5" class="edge">
+<title>tsar_main-&gt;type1</title>
+<path fill="none" stroke="black" d="M786.27,-653.16C751.89,-637.35 708.59,-617.44 670.68,-600"/>
+<polygon fill="black" stroke="black" points="671.99,-597.52 663.55,-596.72 669.65,-602.61 671.99,-597.52"/>
+</g>
+<!-- type2 -->
+<g id="node6" class="node">
+<title>type2</title>
+<polygon fill="azure" stroke="black" points="1056.54,-595.6 772.54,-595.6 772.54,-520.4 1056.54,-520.4 1056.54,-595.6"/>
+<text text-anchor="middle" x="914.54" y="-579" font-family="Arial" font-size="14.00">Type II: Spatial Effect Threshold</text>
+<text text-anchor="middle" x="914.54" y="-562.2" font-family="Arial" font-size="14.00">• Varying spatial spillover effects</text>
+<text text-anchor="middle" x="914.54" y="-545.4" font-family="Arial" font-size="14.00">• Constant regression coefficients</text>
+<text text-anchor="middle" x="914.54" y="-528.6" font-family="Arial" font-size="14.00">• y = ρ₁WyI(q≤γ) + ρ₂WyI(q&gt;γ) + Xβ + ε</text>
+</g>
+<!-- tsar_main&#45;&gt;type2 -->
+<g id="edge6" class="edge">
+<title>tsar_main-&gt;type2</title>
+<path fill="none" stroke="black" d="M863.85,-653.32C871.76,-638.58 881.61,-620.26 890.52,-603.69"/>
+<polygon fill="black" stroke="black" points="892.76,-605.42 894.09,-597.05 887.83,-602.77 892.76,-605.42"/>
+</g>
+<!-- challenge -->
+<g id="node7" class="node">
+<title>challenge</title>
+<polygon fill="mistyrose" stroke="black" points="788.75,-462.4 588.32,-462.4 588.32,-404 788.75,-404 788.75,-462.4"/>
+<text text-anchor="middle" x="688.54" y="-445.8" font-family="Arial" font-size="14.00">High-Dimensional Challenges</text>
+<text text-anchor="middle" x="688.54" y="-429" font-family="Arial" font-size="14.00">• Overfitting</text>
+<text text-anchor="middle" x="688.54" y="-412.2" font-family="Arial" font-size="14.00">• Multicollinearity</text>
+</g>
+<!-- type1&#45;&gt;challenge -->
+<g id="edge7" class="edge">
+<title>type1-&gt;challenge</title>
+<path fill="none" stroke="black" d="M613.64,-520.16C627.52,-504.23 643.7,-485.66 657.46,-469.86"/>
+<polygon fill="black" stroke="black" points="659.46,-471.83 662.6,-463.96 655.24,-468.15 659.46,-471.83"/>
+</g>
+<!-- type2&#45;&gt;challenge -->
+<g id="edge8" class="edge">
+<title>type2-&gt;challenge</title>
+<path fill="none" stroke="black" d="M846.42,-519.99C815.54,-503.21 779.3,-483.52 749.35,-467.24"/>
+<polygon fill="black" stroke="black" points="750.77,-464.83 742.4,-463.47 748.09,-469.75 750.77,-464.83"/>
+</g>
+<!-- alasso -->
+<g id="node8" class="node">
+<title>alasso</title>
+<polygon fill="lightgreen" stroke="black" points="552.91,-346 350.16,-346 350.16,-287.6 552.91,-287.6 552.91,-346"/>
+<text text-anchor="middle" x="451.54" y="-329.4" font-family="Arial" font-size="14.00">Adaptive LASSO (ALASSO)</text>
+<text text-anchor="middle" x="451.54" y="-312.6" font-family="Arial" font-size="14.00">• Better sparsity than LASSO</text>
+<text text-anchor="middle" x="451.54" y="-295.8" font-family="Arial" font-size="14.00">• Theoretical consistency</text>
+</g>
+<!-- challenge&#45;&gt;alasso -->
+<g id="edge9" class="edge">
+<title>challenge-&gt;alasso</title>
+<path fill="none" stroke="black" d="M629.34,-403.63C595.83,-387.45 553.8,-367.16 519.02,-350.37"/>
+<polygon fill="black" stroke="black" points="520.58,-348.02 512.16,-347.06 518.15,-353.06 520.58,-348.02"/>
+</g>
+<!-- qmle -->
+<g id="node9" class="node">
+<title>qmle</title>
+<polygon fill="lightgreen" stroke="black" points="780.96,-337.6 596.12,-337.6 596.12,-296 780.96,-296 780.96,-337.6"/>
+<text text-anchor="middle" x="688.54" y="-321" font-family="Arial" font-size="14.00">Quasi-Maximum Likelihood</text>
+<text text-anchor="middle" x="688.54" y="-304.2" font-family="Arial" font-size="14.00">Estimation (QMLE)</text>
+</g>
+<!-- challenge&#45;&gt;qmle -->
+<g id="edge10" class="edge">
+<title>challenge-&gt;qmle</title>
+<path fill="none" stroke="black" d="M688.54,-403.63C688.54,-386.32 688.54,-364.29 688.54,-346.89"/>
+<polygon fill="black" stroke="black" points="691.34,-347.27 688.54,-339.27 685.74,-347.27 691.34,-347.27"/>
+</g>
+<!-- bcd -->
+<g id="node10" class="node">
+<title>bcd</title>
+<polygon fill="lightgreen" stroke="black" points="1085.1,-346 823.98,-346 823.98,-287.6 1085.1,-287.6 1085.1,-346"/>
+<text text-anchor="middle" x="954.54" y="-329.4" font-family="Arial" font-size="14.00">Block Coordinate Descent (BCD)</text>
+<text text-anchor="middle" x="954.54" y="-312.6" font-family="Arial" font-size="14.00">• Unified treatment of threshold search</text>
+<text text-anchor="middle" x="954.54" y="-295.8" font-family="Arial" font-size="14.00">• Efficient parameter estimation</text>
+</g>
+<!-- challenge&#45;&gt;bcd -->
+<g id="edge11" class="edge">
+<title>challenge-&gt;bcd</title>
+<path fill="none" stroke="black" d="M754.97,-403.63C792.74,-387.38 840.16,-366.99 879.3,-350.16"/>
+<polygon fill="black" stroke="black" points="880.39,-352.74 886.64,-347 878.18,-347.59 880.39,-352.74"/>
+</g>
+<!-- contributions -->
+<g id="node11" class="node">
+<title>contributions</title>
+<polygon fill="lavender" stroke="black" points="769.69,-229.6 607.39,-229.6 607.39,-193.6 769.69,-193.6 769.69,-229.6"/>
+<text text-anchor="middle" x="688.54" y="-207.4" font-family="Arial" font-size="14.00">Research Contributions</text>
+</g>
+<!-- alasso&#45;&gt;contributions -->
+<g id="edge12" class="edge">
+<title>alasso-&gt;contributions</title>
+<path fill="none" stroke="black" d="M517.24,-287.19C556.01,-270.31 604.26,-249.3 639.66,-233.88"/>
+<polygon fill="black" stroke="black" points="640.77,-236.46 646.98,-230.69 638.53,-231.32 640.77,-236.46"/>
+</g>
+<!-- qmle&#45;&gt;contributions -->
+<g id="edge13" class="edge">
+<title>qmle-&gt;contributions</title>
+<path fill="none" stroke="black" d="M688.54,-295.9C688.54,-279.79 688.54,-256.95 688.54,-239.26"/>
+<polygon fill="black" stroke="black" points="691.34,-239.55 688.54,-231.55 685.74,-239.55 691.34,-239.55"/>
+</g>
+<!-- bcd&#45;&gt;contributions -->
+<g id="edge14" class="edge">
+<title>bcd-&gt;contributions</title>
+<path fill="none" stroke="black" d="M880.8,-287.19C836.91,-270.16 782.21,-248.94 742.39,-233.49"/>
+<polygon fill="black" stroke="black" points="743.5,-230.92 735.03,-230.64 741.48,-236.14 743.5,-230.92"/>
+</g>
+<!-- contrib1 -->
+<g id="node12" class="node">
+<title>contrib1</title>
+<polygon fill="aliceblue" stroke="black" points="247.08,-135.6 0,-135.6 0,-94 247.08,-94 247.08,-135.6"/>
+<text text-anchor="middle" x="123.54" y="-119" font-family="Arial" font-size="14.00">Systematic Differentiation</text>
+<text text-anchor="middle" x="123.54" y="-102.2" font-family="Arial" font-size="14.00">• Formalization of two TSAR models</text>
+</g>
+<!-- contributions&#45;&gt;contrib1 -->
+<g id="edge15" class="edge">
+<title>contributions-&gt;contrib1</title>
+<path fill="none" stroke="black" d="M606.99,-196.92C514.47,-181.39 362.34,-155.87 253.43,-137.6"/>
+<polygon fill="black" stroke="black" points="254.2,-134.88 245.85,-136.32 253.27,-140.41 254.2,-134.88"/>
+</g>
+<!-- contrib2 -->
+<g id="node13" class="node">
+<title>contrib2</title>
+<polygon fill="aliceblue" stroke="black" points="533.14,-135.6 289.93,-135.6 289.93,-94 533.14,-94 533.14,-135.6"/>
+<text text-anchor="middle" x="411.54" y="-119" font-family="Arial" font-size="14.00">Methodological Innovation</text>
+<text text-anchor="middle" x="411.54" y="-102.2" font-family="Arial" font-size="14.00">• Integration of ALASSO with TSAR</text>
+</g>
+<!-- contributions&#45;&gt;contrib2 -->
+<g id="edge16" class="edge">
+<title>contributions-&gt;contrib2</title>
+<path fill="none" stroke="black" d="M637.41,-193.1C592.97,-177.89 528.23,-155.74 479.45,-139.04"/>
+<polygon fill="black" stroke="black" points="480.44,-136.42 471.97,-136.48 478.63,-141.72 480.44,-136.42"/>
+</g>
+<!-- contrib3 -->
+<g id="node14" class="node">
+<title>contrib3</title>
+<polygon fill="aliceblue" stroke="black" points="801.19,-135.6 575.89,-135.6 575.89,-94 801.19,-94 801.19,-135.6"/>
+<text text-anchor="middle" x="688.54" y="-119" font-family="Arial" font-size="14.00">Algorithm Design</text>
+<text text-anchor="middle" x="688.54" y="-102.2" font-family="Arial" font-size="14.00">• BCD-based iterative algorithms</text>
+</g>
+<!-- contributions&#45;&gt;contrib3 -->
+<g id="edge17" class="edge">
+<title>contributions-&gt;contrib3</title>
+<path fill="none" stroke="black" d="M688.54,-193.21C688.54,-179.84 688.54,-161.07 688.54,-145.35"/>
+<polygon fill="black" stroke="black" points="691.34,-145.55 688.54,-137.55 685.74,-145.55 691.34,-145.55"/>
+</g>
+<!-- contrib4 -->
+<g id="node15" class="node">
+<title>contrib4</title>
+<polygon fill="aliceblue" stroke="black" points="1096.43,-135.6 844.65,-135.6 844.65,-94 1096.43,-94 1096.43,-135.6"/>
+<text text-anchor="middle" x="970.54" y="-119" font-family="Arial" font-size="14.00">Theoretical Guarantees</text>
+<text text-anchor="middle" x="970.54" y="-102.2" font-family="Arial" font-size="14.00">• Consistency in threshold estimation</text>
+</g>
+<!-- contributions&#45;&gt;contrib4 -->
+<g id="edge18" class="edge">
+<title>contributions-&gt;contrib4</title>
+<path fill="none" stroke="black" d="M740.59,-193.1C785.85,-177.89 851.79,-155.72 901.46,-139.02"/>
+<polygon fill="black" stroke="black" points="902.1,-141.76 908.79,-136.56 900.31,-136.45 902.1,-141.76"/>
+</g>
+<!-- applications -->
+<g id="node16" class="node">
+<title>applications</title>
+<polygon fill="lightyellow" stroke="black" points="1283.35,-132.8 1139.73,-132.8 1139.73,-96.8 1283.35,-96.8 1283.35,-132.8"/>
+<text text-anchor="middle" x="1211.54" y="-110.6" font-family="Arial" font-size="14.00">Application Domains</text>
+</g>
+<!-- contributions&#45;&gt;applications -->
+<g id="edge19" class="edge">
+<title>contributions-&gt;applications</title>
+<path fill="none" stroke="black" d="M770.14,-197.2C856.55,-182.8 996.89,-158.85 1117.54,-135.6 1121.61,-134.82 1125.78,-134 1129.98,-133.16"/>
+<polygon fill="black" stroke="black" points="1130.45,-135.92 1137.74,-131.59 1129.35,-130.43 1130.45,-135.92"/>
+</g>
+<!-- app1 -->
+<g id="node17" class="node">
+<title>app1</title>
+<polygon fill="lemonchiffon" stroke="black" points="992.35,-36 848.73,-36 848.73,0 992.35,0 992.35,-36"/>
+<text text-anchor="middle" x="920.54" y="-13.8" font-family="Arial" font-size="14.00">Regional Economics</text>
+</g>
+<!-- applications&#45;&gt;app1 -->
+<g id="edge20" class="edge">
+<title>applications-&gt;app1</title>
+<path fill="none" stroke="black" d="M1157.82,-96.3C1108.3,-80.17 1034.8,-56.22 982.75,-39.27"/>
+<polygon fill="black" stroke="black" points="983.85,-36.68 975.38,-36.87 982.12,-42.01 983.85,-36.68"/>
+</g>
+<!-- app2 -->
+<g id="node18" class="node">
+<title>app2</title>
+<polygon fill="lemonchiffon" stroke="black" points="1194.13,-36 1034.94,-36 1034.94,0 1194.13,0 1194.13,-36"/>
+<text text-anchor="middle" x="1114.54" y="-13.8" font-family="Arial" font-size="14.00">Environmental Science</text>
+</g>
+<!-- applications&#45;&gt;app2 -->
+<g id="edge21" class="edge">
+<title>applications-&gt;app2</title>
+<path fill="none" stroke="black" d="M1193.75,-96.41C1178.3,-81.31 1155.78,-59.31 1138.7,-42.62"/>
+<polygon fill="black" stroke="black" points="1140.98,-40.92 1133.3,-37.34 1137.06,-44.93 1140.98,-40.92"/>
+</g>
+<!-- app3 -->
+<g id="node19" class="node">
+<title>app3</title>
+<polygon fill="lemonchiffon" stroke="black" points="1379.56,-36 1237.51,-36 1237.51,0 1379.56,0 1379.56,-36"/>
+<text text-anchor="middle" x="1308.54" y="-13.8" font-family="Arial" font-size="14.00">Real Estate Markets</text>
+</g>
+<!-- applications&#45;&gt;app3 -->
+<g id="edge22" class="edge">
+<title>applications-&gt;app3</title>
+<path fill="none" stroke="black" d="M1229.33,-96.41C1244.78,-81.31 1267.29,-59.31 1284.37,-42.62"/>
+<polygon fill="black" stroke="black" points="1286.01,-44.93 1289.78,-37.34 1282.1,-40.92 1286.01,-44.93"/>
+</g>
+<!-- app4 -->
+<g id="node20" class="node">
+<title>app4</title>
+<polygon fill="lemonchiffon" stroke="black" points="1538.72,-36 1422.35,-36 1422.35,0 1538.72,0 1538.72,-36"/>
+<text text-anchor="middle" x="1480.54" y="-13.8" font-family="Arial" font-size="14.00">Social Networks</text>
+</g>
+<!-- applications&#45;&gt;app4 -->
+<g id="edge23" class="edge">
+<title>applications-&gt;app4</title>
+<path fill="none" stroke="black" d="M1261.19,-96.3C1306.78,-80.24 1374.35,-56.42 1422.43,-39.48"/>
+<polygon fill="black" stroke="black" points="1423.13,-42.2 1429.75,-36.9 1421.27,-36.92 1423.13,-42.2"/>
+</g>
+<!-- paper_structure -->
+<g id="node21" class="node">
+<title>paper_structure</title>
+<polygon fill="papayawhip" stroke="black" points="1340.56,-922.4 1226.51,-922.4 1226.51,-886.4 1340.56,-886.4 1340.56,-922.4"/>
+<text text-anchor="middle" x="1283.54" y="-900.2" font-family="Arial" font-size="14.00">Paper Structure</text>
+</g>
+<!-- sec2 -->
+<g id="node22" class="node">
+<title>sec2</title>
+<polygon fill="bisque" stroke="black" points="1405.93,-817.2 1161.15,-817.2 1161.15,-781.2 1405.93,-781.2 1405.93,-817.2"/>
+<text text-anchor="middle" x="1283.54" y="-795" font-family="Arial" font-size="14.00">Section 2: TSAR Model Specification</text>
+</g>
+<!-- paper_structure&#45;&gt;sec2 -->
+<g id="edge26" class="edge">
+<title>paper_structure-&gt;sec2</title>
+<path fill="none" stroke="black" d="M1271.2,-886.36C1266.93,-870.17 1266.27,-845.59 1269.23,-826.82"/>
+<polygon fill="black" stroke="black" points="1271.95,-827.49 1270.8,-819.09 1266.46,-826.38 1271.95,-827.49"/>
+</g>
+<!-- paper_structure&#45;&gt;sec2 -->
+<g id="edge34" class="edge">
+<title>paper_structure-&gt;sec2</title>
+<path fill="none" stroke="black" d="M1295.88,-886.36C1300.15,-870.17 1300.8,-845.59 1297.85,-826.82"/>
+<polygon fill="black" stroke="black" points="1300.62,-826.38 1296.28,-819.09 1295.13,-827.49 1300.62,-826.38"/>
+</g>
+<!-- sec3 -->
+<g id="node23" class="node">
+<title>sec3</title>
+<polygon fill="bisque" stroke="black" points="1391.92,-700.8 1175.16,-700.8 1175.16,-664.8 1391.92,-664.8 1391.92,-700.8"/>
+<text text-anchor="middle" x="1283.54" y="-678.6" font-family="Arial" font-size="14.00">Section 3: Parameter Estimation</text>
+</g>
+<!-- sec2&#45;&gt;sec3 -->
+<g id="edge27" class="edge">
+<title>sec2-&gt;sec3</title>
+<path fill="none" stroke="black" d="M1271.57,-780.83C1266.75,-762.07 1266.12,-731.98 1269.69,-710.27"/>
+<polygon fill="black" stroke="black" points="1272.43,-710.85 1271.32,-702.45 1266.95,-709.71 1272.43,-710.85"/>
+</g>
+<!-- sec2&#45;&gt;sec3 -->
+<g id="edge35" class="edge">
+<title>sec2-&gt;sec3</title>
+<path fill="none" stroke="black" d="M1295.5,-780.83C1300.33,-762.07 1300.96,-731.98 1297.39,-710.27"/>
+<polygon fill="black" stroke="black" points="1300.13,-709.71 1295.76,-702.45 1294.64,-710.85 1300.13,-709.71"/>
+</g>
+<!-- sec4 -->
+<g id="node24" class="node">
+<title>sec4</title>
+<polygon fill="bisque" stroke="black" points="1402.43,-576 1164.65,-576 1164.65,-540 1402.43,-540 1402.43,-576"/>
+<text text-anchor="middle" x="1283.54" y="-553.8" font-family="Arial" font-size="14.00">Section 4: Large-Sample Properties</text>
+</g>
+<!-- sec3&#45;&gt;sec4 -->
+<g id="edge28" class="edge">
+<title>sec3-&gt;sec4</title>
+<path fill="none" stroke="black" d="M1271.9,-664.47C1266.64,-643.9 1266,-609.38 1270,-585.46"/>
+<polygon fill="black" stroke="black" points="1272.72,-586.13 1271.61,-577.73 1267.24,-584.99 1272.72,-586.13"/>
+</g>
+<!-- sec3&#45;&gt;sec4 -->
+<g id="edge36" class="edge">
+<title>sec3-&gt;sec4</title>
+<path fill="none" stroke="black" d="M1295.18,-664.47C1300.44,-643.9 1301.07,-609.38 1297.07,-585.46"/>
+<polygon fill="black" stroke="black" points="1299.83,-584.99 1295.46,-577.73 1294.35,-586.13 1299.83,-584.99"/>
+</g>
+<!-- sec5 -->
+<g id="node25" class="node">
+<title>sec5</title>
+<polygon fill="bisque" stroke="black" points="1380.64,-451.2 1186.43,-451.2 1186.43,-415.2 1380.64,-415.2 1380.64,-451.2"/>
+<text text-anchor="middle" x="1283.54" y="-429" font-family="Arial" font-size="14.00">Section 5: Threshold Testing</text>
+</g>
+<!-- sec4&#45;&gt;sec5 -->
+<g id="edge29" class="edge">
+<title>sec4-&gt;sec5</title>
+<path fill="none" stroke="black" d="M1271.9,-539.67C1266.64,-519.1 1266,-484.58 1270,-460.66"/>
+<polygon fill="black" stroke="black" points="1272.72,-461.33 1271.61,-452.93 1267.24,-460.19 1272.72,-461.33"/>
+</g>
+<!-- sec4&#45;&gt;sec5 -->
+<g id="edge37" class="edge">
+<title>sec4-&gt;sec5</title>
+<path fill="none" stroke="black" d="M1295.18,-539.67C1300.44,-519.1 1301.07,-484.58 1297.07,-460.66"/>
+<polygon fill="black" stroke="black" points="1299.83,-460.19 1295.46,-452.93 1294.35,-461.33 1299.83,-460.19"/>
+</g>
+<!-- sec6 -->
+<g id="node26" class="node">
+<title>sec6</title>
+<polygon fill="bisque" stroke="black" points="1397.37,-334.8 1169.71,-334.8 1169.71,-298.8 1397.37,-298.8 1397.37,-334.8"/>
+<text text-anchor="middle" x="1283.54" y="-312.6" font-family="Arial" font-size="14.00">Section 6: Monte Carlo Simulation</text>
+</g>
+<!-- sec5&#45;&gt;sec6 -->
+<g id="edge30" class="edge">
+<title>sec5-&gt;sec6</title>
+<path fill="none" stroke="black" d="M1271.57,-414.83C1266.75,-396.07 1266.12,-365.98 1269.69,-344.27"/>
+<polygon fill="black" stroke="black" points="1272.43,-344.85 1271.32,-336.45 1266.95,-343.71 1272.43,-344.85"/>
+</g>
+<!-- sec5&#45;&gt;sec6 -->
+<g id="edge38" class="edge">
+<title>sec5-&gt;sec6</title>
+<path fill="none" stroke="black" d="M1295.5,-414.83C1300.33,-396.07 1300.96,-365.98 1297.39,-344.27"/>
+<polygon fill="black" stroke="black" points="1300.13,-343.71 1295.76,-336.45 1294.64,-344.85 1300.13,-343.71"/>
+</g>
+<!-- sec7 -->
+<g id="node27" class="node">
+<title>sec7</title>
+<polygon fill="bisque" stroke="black" points="1389.59,-229.6 1177.49,-229.6 1177.49,-193.6 1389.59,-193.6 1389.59,-229.6"/>
+<text text-anchor="middle" x="1283.54" y="-207.4" font-family="Arial" font-size="14.00">Section 7: Empirical Application</text>
+</g>
+<!-- sec6&#45;&gt;sec7 -->
+<g id="edge31" class="edge">
+<title>sec6-&gt;sec7</title>
+<path fill="none" stroke="black" d="M1271.2,-298.76C1266.93,-282.57 1266.27,-257.99 1269.23,-239.22"/>
+<polygon fill="black" stroke="black" points="1271.95,-239.89 1270.8,-231.49 1266.46,-238.78 1271.95,-239.89"/>
+</g>
+<!-- sec6&#45;&gt;sec7 -->
+<g id="edge39" class="edge">
+<title>sec6-&gt;sec7</title>
+<path fill="none" stroke="black" d="M1295.88,-298.76C1300.15,-282.57 1300.8,-257.99 1297.85,-239.22"/>
+<polygon fill="black" stroke="black" points="1300.62,-238.78 1296.28,-231.49 1295.13,-239.89 1300.62,-238.78"/>
+</g>
+<!-- sec7&#45;&gt;applications -->
+<g id="edge32" class="edge">
+<title>sec7-&gt;applications</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1270.33,-193.21C1259.07,-178.38 1242.74,-156.88 1230.15,-140.31"/>
+<polygon fill="black" stroke="black" points="1232.64,-138.96 1225.58,-134.28 1228.18,-142.35 1232.64,-138.96"/>
+</g>
+<!-- invisible_node&#45;&gt;paper_structure -->
+<g id="edge25" class="edge">
+<title>invisible_node-&gt;paper_structure</title>
+<path fill="none" stroke="black" d="M1184.32,-904.39C1195.11,-904.28 1205.9,-904.2 1216.69,-904.16"/>
+<polygon fill="black" stroke="black" points="1216.67,-906.96 1224.66,-904.14 1216.66,-901.36 1216.67,-906.96"/>
+</g>
+<!-- invisible_node&#45;&gt;paper_structure -->
+</g>
+</svg>
